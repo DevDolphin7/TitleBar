@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TitleBarCTk"
+version = "0.1.0"
+authors = [
+  { name="DevDolphin7", email="devdolphin7@outlook.com" },
+]
+description = "Create a custom title bar for a windows app developed with custom tkinter"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU GPLv3",
+    "Operating System :: Microsoft Windows",
+]
+
+[project.urls]
+Homepage = "https://github.com/DevDolphin7/TitleBar"

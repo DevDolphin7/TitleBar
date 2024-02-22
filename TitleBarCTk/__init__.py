@@ -6,7 +6,7 @@ from screeninfo import get_monitors
 from PIL import Image
 from .dat import dat_main as data_main
 
-
+__version__ = "0.1.0"
 
 class WindowFrame(ctk.CTkFrame):
     def __init__(self, root, height=20, non_maximised_width=480, non_maximised_height=480, title="", text_variable="",
