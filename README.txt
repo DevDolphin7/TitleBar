@@ -1,5 +1,5 @@
 pip install TitleBarCTk
-see https://pypi.org/project/TitleBarCTk/0.1.0/
+see https://pypi.org/project/TitleBarCTk/0.1.1/
 
 This script creates a title bar for Windows with an icon on the taskbar. It requires:
  - pywin32 306, url: https://pypi.org/project/pywin32/
