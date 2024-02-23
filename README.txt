@@ -38,3 +38,8 @@ Install requires:
  - screeninfo 0.8.1, url: https://pypi.org/project/screeninfo/
  - PIL 10.2.0, url: https://pypi.org/project/pillow/
  - customtkinter 0.3, url: https://pypi.org/project/customtkinter/0.3/, url: https://customtkinter.tomschimansky.com/
+
+--------------------------------------------------
+
+PyPI url: https://pypi.org/project/titlebarctk/
+Get in contact: DevDolphin7@outlook.com
