@@ -6,12 +6,10 @@ from screeninfo import get_monitors
 from PIL import Image
 from .dat import dat_main as data_main
 
-__version__ = "0.1.0"
+__version__ = "0.1.2"
 
-class WindowFrame(ctk.CTkFrame):
-    def __init__(self, root, height=20, non_maximised_width=480, non_maximised_height=480, title="", text_variable="",
-                 fg_color=["#ddf5ff", "#051419"], start_fullscreen=False, icon_path="", font=None, save_function=None) -> None:
-        """Creates titlebar_text_variable that can be updated.
+class TitleBar(ctk.CTkFrame):
+    """Creates titlebar_text_variable that can be updated.
         Parameters:
         - root (CTk() object): pass root as an argument.
         - height (int, optional): Define the height of the titlebar.
@@ -25,6 +23,8 @@ class WindowFrame(ctk.CTkFrame):
         - font (tuple, optional): Define (font as str, size as int) for TitleBar text (see custom tkinter documentation).
         - save_function (function, optional): Define what happens when the save button is pressed, otherwise omit save button."""
 
+    def __init__(self, root, height=20, non_maximised_width=480, non_maximised_height=480, title="", text_variable="",
+                 fg_color=["#ddf5ff", "#051419"], start_fullscreen=False, icon_path="", font=None, save_function=None) -> None:
         # Load CTk Frame
         super().__init__(root)
 
