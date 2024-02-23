@@ -5,7 +5,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.txt").read_text()
 
 setup(
-    name='titlebar_ctk',
+    name='titlebarctk',
     version='0.1.2',
     install_requires=[
         'pywin32',

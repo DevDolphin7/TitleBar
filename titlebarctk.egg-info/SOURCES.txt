@@ -1,0 +1,16 @@
+LICENSE
+README.txt
+pyproject.toml
+setup.py
+titlebarctk/__init__.py
+titlebarctk.egg-info/PKG-INFO
+titlebarctk.egg-info/SOURCES.txt
+titlebarctk.egg-info/dependency_links.txt
+titlebarctk.egg-info/top_level.txt
+titlebarctk/dat/dat_main.py
+titlebarctk/dat/aud/__init__.py
+titlebarctk/dat/img/ExitClose.py
+titlebarctk/dat/img/FullScreen.py
+titlebarctk/dat/img/Minimise.py
+titlebarctk/dat/img/Save.py
+titlebarctk/dat/img/__init__.py

@@ -1,1 +1,1 @@
-https://pypi.org/project/TitleBarCTk/0.1.0/
+https://pypi.org/project/titlebarctk/0.1.2/
