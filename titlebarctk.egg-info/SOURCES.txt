@@ -6,6 +6,7 @@ titlebarctk/__init__.py
 titlebarctk.egg-info/PKG-INFO
 titlebarctk.egg-info/SOURCES.txt
 titlebarctk.egg-info/dependency_links.txt
+titlebarctk.egg-info/requires.txt
 titlebarctk.egg-info/top_level.txt
 titlebarctk/dat/dat_main.py
 titlebarctk/dat/aud/__init__.py

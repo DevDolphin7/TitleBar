@@ -15,16 +15,16 @@ def change_text():
 root = ctk.CTk()
 
 window_frame = tb.TitleBar(root,
-                              height = 20,
-                              non_maximised_width=1600,
-                              non_maximised_height=900,
-                              save_function=save_like_this,
-                              title="Eat my dolphin shorts",
-                              font=("helvetica", 20),
-                              fg_color=["#ffffff", "#000000"],
-                              start_fullscreen=False,
-                              icon_path="path_to_icon.ico",
-                              text_variable="Hello, World!")
+                           height = 20,
+                           non_maximised_width=1600,
+                           non_maximised_height=900,
+                           save_function=save_like_this,
+                           title="Eat my dolphin shorts",
+                           font=("helvetica", 20),
+                           fg_color=["#ffffff", "#000000"],
+                           start_fullscreen=False,
+                           icon_path="path_to_icon.ico",
+                           text_variable="Hello, World!")
 
 window_frame.pack(side="top", fill="x")
 
@@ -32,6 +32,9 @@ root.after(2000, change_text)
 
 root.mainloop()
 --------------------------------------------------
+
+Windows 10
+Python 3
 
 Install requires:
  - pywin32 306, url: https://pypi.org/project/pywin32/
@@ -41,5 +44,6 @@ Install requires:
 
 --------------------------------------------------
 
+GitHub url: https://github.com/DevDolphin7/TitleBar
 PyPI url: https://pypi.org/project/titlebarctk/
 Get in contact: DevDolphin7@outlook.com

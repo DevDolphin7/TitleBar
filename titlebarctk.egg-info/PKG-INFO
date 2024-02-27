@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: titlebarctk
-Version: 0.1.2
+Version: 0.1.3
 Summary: Create a custom title bar for a windows app developed with custom tkinter
 Author-email: DevDolphin7 <devdolphin7@outlook.com>
 Project-URL: Homepage, https://github.com/DevDolphin7/TitleBar
@@ -10,6 +10,10 @@ Classifier: Operating System :: Microsoft :: Windows :: Windows 10
 Requires-Python: >=3.8
 Description-Content-Type: text/plain
 License-File: LICENSE
+Requires-Dist: pywin32
+Requires-Dist: screeninfo
+Requires-Dist: pillow
+Requires-Dist: customtkinter
 
 pip install titlebarctk
 
@@ -28,16 +32,16 @@ def change_text():
 root = ctk.CTk()
 
 window_frame = tb.TitleBar(root,
-                              height = 20,
-                              non_maximised_width=1600,
-                              non_maximised_height=900,
-                              save_function=save_like_this,
-                              title="Eat my dolphin shorts",
-                              font=("helvetica", 20),
-                              fg_color=["#ffffff", "#000000"],
-                              start_fullscreen=False,
-                              icon_path="path_to_icon.ico",
-                              text_variable="Hello, World!")
+                           height = 20,
+                           non_maximised_width=1600,
+                           non_maximised_height=900,
+                           save_function=save_like_this,
+                           title="Eat my dolphin shorts",
+                           font=("helvetica", 20),
+                           fg_color=["#ffffff", "#000000"],
+                           start_fullscreen=False,
+                           icon_path="path_to_icon.ico",
+                           text_variable="Hello, World!")
 
 window_frame.pack(side="top", fill="x")
 
@@ -46,8 +50,17 @@ root.after(2000, change_text)
 root.mainloop()
 --------------------------------------------------
 
+Windows 10
+Python 3
+
 Install requires:
  - pywin32 306, url: https://pypi.org/project/pywin32/
  - screeninfo 0.8.1, url: https://pypi.org/project/screeninfo/
  - PIL 10.2.0, url: https://pypi.org/project/pillow/
  - customtkinter 0.3, url: https://pypi.org/project/customtkinter/0.3/, url: https://customtkinter.tomschimansky.com/
+
+--------------------------------------------------
+
+GitHub url: https://github.com/DevDolphin7/TitleBar
+PyPI url: https://pypi.org/project/titlebarctk/
+Get in contact: DevDolphin7@outlook.com
