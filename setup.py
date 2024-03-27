@@ -6,7 +6,7 @@ long_description = (this_directory / "README.txt").read_text()
 
 setup(
     name='titlebarctk',
-    version='0.1.3',
+    version='0.1.4',
     long_description=long_description,
     long_description_content_type="text/plain"
 )

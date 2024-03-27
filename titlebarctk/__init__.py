@@ -66,7 +66,6 @@ class TitleBar(ctk.CTkFrame):
         # Bring user attention to software
         self.root.attributes("-topmost", True)
         self.root.attributes("-topmost", False)
-        self.grab_set()
         self.focus()
 
 

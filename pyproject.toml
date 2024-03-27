@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "titlebarctk"
-version = "0.1.3"
+version = "0.1.4"
 authors = [
   { name="DevDolphin7", email="devdolphin7@outlook.com" },
 ]

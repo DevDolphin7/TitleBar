@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: titlebarctk
-Version: 0.1.3
+Version: 0.1.4
 Summary: Create a custom title bar for a windows app developed with custom tkinter
 Author-email: DevDolphin7 <devdolphin7@outlook.com>
 Project-URL: Homepage, https://github.com/DevDolphin7/TitleBar
